@@ -27,3 +27,7 @@ h2{
 h1 span{
 	color: purple;
 }
+
+.image-background{
+	background-image: url("https://m.media-amazon.com/images/I/41U0p-rkdyL.jpg");
+}
