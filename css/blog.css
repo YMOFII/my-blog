@@ -3,7 +3,7 @@ body{
 	font-size: 20px;
     background-image: url(../img/backgroundheader.jpg);
 	background-repeat: no-repeat;
-	background
+	background-size: cover;
 }
 
 h1, h2{
@@ -49,7 +49,7 @@ main{
 
 .thumb{
 	max-width: 150%;
-	max-height: 320px;
+	max-height: 300px;
 }
 
 main h2{
@@ -85,11 +85,11 @@ a:hover{
 
 footer{
 	margin: 0;
-	background-color: gray;
+	background-color: lightyellow;
 }
 
 footer p{
-	padding-left: 20px;
+	padding: 20px 0px 0px 30px;
 	margin: 0;
 }
 footer a{
@@ -97,5 +97,51 @@ footer a{
 }
 
 .hero{
-	height: 75px;
+	height: 63px;
+}
+
+.container{
+	display: flex;
+	/*flex-direction: row;*/
+	/*justify-content: space-evenly;*/
+	/*align-items: flex-start*/
+	/*When flex-wrap is set to :wrap;
+	align-content can be used:
+	align-content: flex-start*/
+	/*Gaps: gap: 1em;*/
+
+}
+
+.box2{
+/*flex-grow: 1;*/
+/*flex-shrink: 0,5;*/
+/*flex-basis: 0;*/
+/*flex is miles better (a shortcut)*/
+/*flex: 1;*/
+/*align-self*/
+/*order: -1'; - makes it go first even if this item appears last in html*/
+/*order is not the best*/
+}
+
+/*Media querries:*/ 
+
+/* Target standard phones (e.g., iPhone 6/7/8) */
+@media (min-width: 360px) and (max-width: 767px) {
+  .thumb{
+		max-width: 75%;
+	}
+}
+
+/* Target larger phones (e.g., iPhone X/XS/11 Pro, Samsung Galaxy S8/S9) */
+@media (min-width: 768px) and (max-width: 1023px) {
+	body{
+		color: ;
+	}
+}
+
+/* Target larger phones in landscape mode */
+@media (min-width: 1024px) and (max-width: 1279px) and (orientation: landscape) {
+  body{
+		color: ;
+	}
 }
