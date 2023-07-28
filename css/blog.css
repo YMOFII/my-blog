@@ -70,7 +70,7 @@ main ul{
 }
 
 main div{
-	padding: 20px 0px 150px 0px;
+	padding: 20px 0px 10px 0px;
 }
 
 main div p{
@@ -91,6 +91,7 @@ footer{
 footer p{
 	padding: 20px 0px 0px 30px;
 	margin: 0;
+	width: 200px;
 }
 footer a{
 
@@ -122,6 +123,22 @@ footer a{
 /*order: -1'; - makes it go first even if this item appears last in html*/
 /*order is not the best*/
 }
+
+.social{
+	display: flex;
+	flex: 1;
+	justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 60px;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+ .social img{
+ 	max-height: 20px;
+ 	width: 20px;
+ }
 
 /*Media querries:*/ 
 
