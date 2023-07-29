@@ -1,6 +1,7 @@
 body{
 	margin: 0;
-	font-size: 20px;
+	font-size: 18px;
+	font-family: sans-serif;
     background-image: url(../img/backgroundheader.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -20,6 +21,7 @@ header img{
 	border-radius: 200px;
 	width: 300px;
 	border: 7px solid black;
+	margin-top: 20px;
 }
 
 header h1{
@@ -39,7 +41,7 @@ font-weight: normal;
 	border-color: lightgoldenrodyellow;
 	border-radius: 20px;
 	background-color: lightyellow;
-	margin: 20px 100px 0px 100px;
+	margin: 50px 100px 0px 100px;
 	transform: skew(-10deg);
 }
 
@@ -67,6 +69,7 @@ main ul{
 .yt{
 	border: 10px solid lightyellow;
 	border-radius: 300px;
+	margin-right: 70px;
 }
 
 main div{
@@ -77,10 +80,25 @@ main div p{
 	margin: 0px;
 }
 
+a{
+	color: black;
+}
+
 
 a:hover{
 	color: whitesmoke;
 	background-color: transparent;
+}
+
+.box3{
+	  display: flex;
+    margin-bottom: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+	  margin-bottom: 500px;
 }
 
 footer{
@@ -102,14 +120,13 @@ footer a{
 }
 
 .container{
-	display: flex;
-	/*flex-direction: row;*/
-	/*justify-content: space-evenly;*/
-	/*align-items: flex-start*/
-	/*When flex-wrap is set to :wrap;
-	align-content can be used:
-	align-content: flex-start*/
-	/*Gaps: gap: 1em;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    align-content: center;
+    width: 100%;
 
 }
 
