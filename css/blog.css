@@ -8,7 +8,7 @@ body{
 }
 
 h1, h2{
-	
+
 }
 
 header{
@@ -92,14 +92,31 @@ a:hover{
 
 .box3{
 	  display: flex;
-    margin-bottom: 500px;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-	  margin-bottom: 500px;
+    margin-bottom: 200px;
 }
+
+.emaillist{
+	display: flex;
+	height: 250px;
+	margin: 30px;
+}
+
+.emaillist h1{
+	display: inline-block;
+}
+
+.emailcol{
+	text-align: center;
+	border: 3px solid black;
+	margin-right: 200px;
+}
+
+
 
 footer{
 	margin: 0;
@@ -107,12 +124,10 @@ footer{
 }
 
 footer p{
-	padding: 20px 0px 0px 30px;
+	display: inline-block;
+	padding: 20px 15px 0px 30px;
 	margin: 0;
-	width: 200px;
-}
-footer a{
-
+	width: auto;
 }
 
 .hero{
@@ -144,7 +159,7 @@ footer a{
 .social{
 	display: flex;
 	flex: 1;
-	justify-content: flex-start;
+	justify-content: center;
     flex-wrap: wrap;
     align-content: flex-start;
     height: 60px;
@@ -153,8 +168,8 @@ footer a{
 }
 
  .social img{
- 	max-height: 20px;
- 	width: 20px;
+ 	height: 25px;
+ 	width: 25px;
  }
 
 /*Media querries:*/ 
