@@ -13,7 +13,7 @@ h2{
 }
 
 h2 a{
-	display: 
+	display: inline-block; 
 }
 
 h1,h2{
