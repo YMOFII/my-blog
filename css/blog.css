@@ -57,8 +57,8 @@ main{
 }
 
 .thumb{
-	max-width: 150%;
-	max-height: 300px;
+	width: 450px;
+	height: 300px;
 }
 
 main h2{
@@ -71,6 +71,17 @@ main ul{
 	text-align: left;
 	padding-bottom: 20px;
 	font-family: helvetica, arial, sans-serif;
+}
+
+.box2 img{
+	height: 300px;
+	cursor: pointer;
+	transition: 0.2s ease-out;
+}
+
+.box2 img:hover{
+  width: 454px;
+  height: 305px;
 }
 
 .yt{
