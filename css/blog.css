@@ -14,8 +14,8 @@ nav{
 	text-align: center;
 }
 
-h1, h2{
-
+h2{
+font
 }
 
 header{
@@ -46,11 +46,12 @@ color: black;
 
 .adonisss{
 	border: 10px solid;
-	border-color: lightgoldenrodyellow;
-	border-radius: 20px;
-	background-color: lightyellow;
-	margin: 50px 100px 0px 100px;
-	transform: skew(-10deg);
+    border-color: lightgoldenrodyellow;
+    /* border-radius: 20px; */
+    background-color: lightyellow;
+    margin: 50px 200px 0px 200px;
+    transform: skew(284deg);
+    height: 50px;
 }
 
 main{
@@ -69,7 +70,7 @@ main h2{
 }
 
 main ul{
-	text-align: left;
+	text-align: center;
 	padding-bottom: 20px;
 	font-family: helvetica, arial, sans-serif;
 }
@@ -249,7 +250,7 @@ footer p{
 }
 
 .hero{
-	height: 55px;
+	height: 70px;
 }
 
 .container{
@@ -283,7 +284,7 @@ footer p{
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
-    height: 55px;
+    height: 70px;
     align-items: flex-end;
     flex-direction: row;
 }
