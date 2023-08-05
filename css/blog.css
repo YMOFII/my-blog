@@ -2,10 +2,10 @@ body{
 	margin: 0;
 	font-size: 18px;
 	font-family: sans-serif;
-   /* background-image: url(../img/backgroundheader.jpg);
+    /*background-image: url(../img/backgroundheader.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
-	*/
+	background-size: cover;*/
+	
 	background-color: #010f0f;
   color: white;
 }
@@ -41,6 +41,7 @@ header h2{
 	font-family: 'Lugrasimo', cursive;
 font-family: 'Raleway', sans-serif;
 font-weight: normal;
+color: black;
 }
 
 .adonisss{
@@ -57,7 +58,7 @@ main{
 }
 
 .thumb{
-	width: 450px;
+	width: 800px;
 	height: 300px;
 }
 
@@ -76,11 +77,11 @@ main ul{
 .box2 img{
 	height: 300px;
 	cursor: pointer;
-	transition: 0.2s ease-out;
+	transition: 0.1s ease-out;
 }
 
 .box2 img:hover{
-  width: 454px;
+  width: 805px;
   height: 305px;
 }
 
@@ -125,7 +126,7 @@ a:hover{
     align-content: center;
     justify-content: flex-start;
     align-items: stretch;
-    margin-bottom: 200px;
+/*    margin-bottom: 200px;*/
 }
 
 .box3 h3{
@@ -139,23 +140,100 @@ iframe{
 	margin-left: 140px;
 }
 
-.emaillist{
+.media {
 	display: flex;
-	height: 250px;
-	margin: 30px;
+	flex-direction: column;
 }
 
-.emaillist h1{
+.emaillist{
+	display: flex;
+    height: 300px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.emailcol h2{
 	display: inline-block;
+  width: 470px;
+  font-size: 36px;
+  font-family: 'Josefin Sans';
+  margin-top: 0px
+}
+
+.emailcol p{
+	font-size: 21px;
+	margin: 0px;
+	font-family: 'Raleway';
+  font-weight: 600;
+}
+
+input {
+  display:block;
+  width:100%;
+  margin:15px 0;
+  padding:10px;
+}
+
+input[type=submit] {
+	padding: 12px;
+    border: none;
+    background-color: #3897d3;
+    color: antiquewhite;
+    border-radius: 8px;
+    width: 475px;
+}
+
+.sub:hover {
+	background-color: #1f8cd1;
+	transition: 0.3s background-color #1f8cd1;
+	transition: 0.3s ease-out box-shadow;
+  box-shadow: 0px 0px 7px #1f8cd1;
+}
+
+form{
+	margin: 0px;
+	font-weight: 100;
+}
+
+form .firstname{
+   margin: 20px 0px 7px 0px;
+   font-size: 17px;
+   border-radius: 7px;
+   border: 1px solid #000;
+   transition: 0.3s border-color;
+   padding: 12px;
+   width: 450px;
+   height: 15px;
+}
+
+.firstname:hover {
+  border: 1px solid #aaa;
+}
+
+form .email{
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1px solid #000;
+    transition: 0.3s border-color;
+    padding: 12px;
+    width: 450px;
+    height: 15px;
+}
+
+.email:hover{
+	border: 1px solid #aaa;
 }
 
 .emailcol{
 	text-align: center;
-	border: 3px solid black;
-	margin-right: 200px;
+	margin-right: 20px;
+  padding: 0px 100px 0px 20px;
 }
 
-
+.emailboxes{
+	margin: 30px 100px 0px 0px; 
+}
 
 footer{
 	margin: 0;
