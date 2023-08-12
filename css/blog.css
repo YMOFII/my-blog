@@ -28,7 +28,7 @@ html {
    padding: 20px 100px;
    font-family: 'Cormorant Garamond', serif;
    font-family: 'Josefin Sans', sans-serif;
-   background: linear-gradient(rgb(22 33 52 / 0%), rgb(20 30 49)), url(../img/rain.jpg);   background-size: cover;
+   background: linear-gradient(rgb(22 33 52 / 0%), rgb(0 0 0)), url(../img/rain.jpg);   background-size: cover;
    position: relative;
    display: flex;
     justify-content: space-between;
@@ -37,9 +37,9 @@ html {
 
 .logo {
    font-size: 32px;
-   color: #fff;
    text-decoration: none;
    font-weight: 700;
+   color: azure;
 }
 
 .navbar a {
@@ -198,6 +198,47 @@ main h2{
 	padding: 0px 0px;
 }
 
+
+
+.chan {
+	color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #FF5722,
+    0 0 82px #FF5722,
+    0 0 92px #FF5722,
+    0 0 102px #FF5722,
+    0 0 151px #FF5722;
+    animation: pulsate 2.5s infinite alternate;
+}
+
+@keyframes pulsate {
+  100% {
+    text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #FF5722,
+      0 0 80px #FF5722,
+      0 0 90px #FF5722,
+      0 0 100px #FF5722,
+      0 0 150px #FF5722;
+  }
+  0% {
+    text-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 6px #fff,
+      0 0 10px #FF5722,
+      0 0 45px #FF5722,
+      0 0 55px #FF5722,
+      0 0 70px #FF5722,
+      0 0 80px #FF5722;
+  }
+}
+
 main ul{
 	text-align: center;
 	padding-bottom: 20px;
@@ -271,7 +312,7 @@ a:hover{
 .box3 h3{
 	display: inline-block;
     padding-left: 20px;
-    padding-top: 70px;
+    padding-top: 89px;
     font-size: 70px;
 }
 
@@ -376,7 +417,7 @@ form .email{
 
 footer{
 	margin: 0;
-  background: linear-gradient(rgb(36 59 84), rgb(222 3 3 / 0%)), url(../img/rain2.jpg);
+  background: linear-gradient(rgb(0 0 0), rgb(222 3 3 / 0%)), url(../img/rain2.jpg);
   color: black;
   background-position: center;
 }
