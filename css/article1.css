@@ -1,13 +1,61 @@
 body{
-	font-family: sans-serif;
+	font-family: 'Inter', sans-serif;
+	/*background: rgb(34,16,74);
+background: linear-gradient(184deg, rgba(34,16,74,1) 0%, rgba(49,16,120,1) 100%);
+*/
+background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(147,147,147,1) 100%);
+margin: 0;
 }
 
 header{
-	text-align: center;
+  box-sizing: border-box;
+  background: url(../img/ego.jpg);
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7;
+    height: 500px;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Nabla', cursive;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    position: relative;
+  }
+.head {
+  opacity: 1;
+  position: relative;
+  right: 70px;
+  bottom: 20px;
 }
+
+header p {
+  font-family: arial;
+}
+
 
 nav{
 	text-align: left;
+	font-family: 'Nabla', cursive;
+  text-decoration: none;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:black;
+  height: 1px;
 }
 
 h1{
@@ -21,34 +69,57 @@ h1{
 }
 
 .main{
-	margin: 30px 40px;	
+/*	margin: 30px 40px;*/	
+  display: grid;
+  border: 1px solid black;
+  background-color: beige;
+  margin: 10px 220px;
+  padding: 5px 60px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 black;
 }
 
 .box1 {
   box-sizing: border-box;
-  border: 5px solid black;
-  background-color: red;
-  width: 100%;
-  height: 80px;
-  margin: 10px auto;
-  text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 10px auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 20px 90px 20px 50px;
+}
+
+.box1 p {
+  padding-top: 15px;
 }
 
 .box1 h1{
 	margin: 0px;
+	font-size: 33px;
 }
 
 .text{
-	display: grid;
-  border: 5px solid black;
-  background-color: aqua;
-  margin: 10px 50px ;
-  padding: 5px 10px 
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	
+}
+
+.recomendation {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recomendation img {
+	height: 300px;
 }
 
 div{
-  font-family: mono;
-  border: 1px black solid;
 }
 
 .comments{
@@ -81,3 +152,142 @@ div{
   transition: 0.2s ease-out;
   box-shadow: 0px 0px 3px 0px
 }
+
+.emaillist{
+	display: flex;
+    height: 300px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    background: #494949;
+}
+
+.emailcol {
+  color: white;
+}
+
+.emailcol h2{
+	display: inline-block;
+  width: 470px;
+  font-size: 36px;
+  font-family: 'Josefin Sans';
+  margin-top: 0px
+}
+
+.emailcol p{
+	font-size: 21px;
+	margin: 0px;
+	font-family: 'Raleway';
+  font-weight: 600;
+}
+
+input {
+  display:block;
+  width:100%;
+  margin:15px 0;
+  padding:10px;
+}
+
+input[type=submit] {
+	padding: 12px;
+    border: none;
+    background-color: #3897d3;
+    color: antiquewhite;
+    border-radius: 8px;
+    width: 475px;
+}
+
+.sub:hover {
+	background-color: #1f8cd1;
+	transition: 0.3s background-color #0f4263;
+	transition: 0.3s ease-out box-shadow;
+  box-shadow: 0px 0px 7px #1f8cd1;
+}
+
+form{
+	margin: 0px;
+	font-weight: 100;
+}
+
+form .firstname{
+   margin: 20px 0px 7px 0px;
+   font-size: 17px;
+   border-radius: 7px;
+   border: 1px solid #000;
+   transition: 0.3s border-color;
+   padding: 12px;
+   width: 450px;
+   height: 15px;
+}
+
+.firstname:hover {
+  border: 1px solid #aaa;
+}
+
+form .email{
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1px solid #000;
+    transition: 0.3s border-color;
+    padding: 12px;
+    width: 450px;
+    height: 15px;
+}
+
+.email:hover{
+	border: 1px solid #aaa;
+}
+
+.emailcol{
+	text-align: center;
+	margin-right: 20px;
+  padding: 0px 100px 0px 20px;
+}
+
+.emailboxes{
+	margin: 30px 100px 0px 0px; 
+}
+
+footer{
+	margin: 0;
+  background-color: dimgray;
+  color: black;
+  background-position: center;
+}
+
+footer p{
+	display: inline-block;
+	padding: 0px 15px 0px 30px;
+	margin: 0;
+	width: auto;
+	color: floralwhite;
+}
+
+.hero{
+	height: 70px;
+	margin: 0;
+}
+
+.social{
+	color: black;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 70px;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+ .social img{
+ 	height: 25px;
+ 	width: 25px;
+ }
+
+ footer a{
+ 	height: 25px;
+ 	width: 25px;
+ }

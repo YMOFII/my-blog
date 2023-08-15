@@ -249,9 +249,9 @@ main ul{
 	padding-bottom: 50px;
 	margin-bottom: 50px;
 	box-sizing: border-box;
-	background: rgb(131,58,180);
-background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
- --mask:
+	background: rgb(255,149,0);
+background: linear-gradient(90deg, rgba(255,149,0,1) 6%, rgba(253,29,29,1) 25%, rgba(131,58,180,1) 50%, rgba(0,255,224,1) 75%, rgba(7,255,0,1) 100%);
+--mask:
     radial-gradient(36.06px at 50% 50.00px,#000 99%,#0000 101%) calc(50% - 40px) 0/80px 51% repeat-x,
     radial-gradient(36.06px at 50% -30px,#0000 99%,#000 101%) 50% 20px/80px calc(51% - 20px) repeat-x,
     radial-gradient(36.06px at 50% calc(100% - 50.00px),#000 99%,#0000 101%) calc(50% - 40px) 100%/80px 51% repeat-x,
@@ -298,6 +298,7 @@ a:hover{
 	color: whitesmoke;
 	background-color: transparent;
 }
+
 
 .box3{
 	  display: flex;
