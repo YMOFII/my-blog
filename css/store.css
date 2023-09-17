@@ -1,0 +1,259 @@
+body{
+	margin: 0;
+	font-size: 18px;
+	font-family: sans-serif;
+    /*background-image: url(../img/backgroundheader.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+	
+background: /*linear-gradient(#141e30, #243b55)*/ black;
+  color: white;
+}
+
+html {
+	color-scheme: dark-light;
+}
+
+.backback {
+	background-image: url(../img/back.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+}
+
+.payhip {
+	display: inline-block;
+
+}
+
+.anim {
+	border-radius: 17px;
+    border: 7px solid transparent;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    box-shadow: 0px 0px 20px 4px black;
+}
+
+
+.anim:hover {
+    border-color: darkorange;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px 8px black;
+}
+
+.payhip h1 {
+    font-size: 50px;
+    background-color: black;
+    width: 1365px;
+    height: 100px;
+    margin: 0;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    font-family: 'Josefin Sans';
+}
+
+.nav {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   position: relative;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 20px 100px;
+   font-family: 'Cormorant Garamond', serif;
+   font-family: 'Josefin Sans', sans-serif;
+   background: linear-gradient(rgb(22 33 52 / 0%), rgb(0 0 0)), url(../img/rain.jpg);   background-size: cover;
+   position: relative;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+   font-size: 32px;
+   text-decoration: none;
+   font-weight: 700;
+   color: azure;
+}
+
+.navbar a {
+   position: relative;
+   font-size: 18px;
+   color: #fff;
+   font-weight: 500;
+   text-decoration: none;
+   margin-left: 40px;
+}
+
+.navbar a::before {
+   content: '';
+   position: absolute;
+   top: 100%;
+   left: 0;
+   width: 0;
+   height: 2px;
+   background: #fff;
+   transition: 0.3s;
+}
+
+.navbar a:hover::before {
+   width: 100%;
+}
+
+header {
+	text-align: center;
+}
+
+
+.button{
+  margin-top: 5px;
+  padding: 7px;
+  width: 80px;
+}
+
+.button:hover{
+  background-color: beige;
+  transition: 0.2s ease-out;
+  box-shadow: 0px 0px 3px 0px
+}
+
+.emaillist{
+	display: flex;
+    height: 300px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    background: black;
+}
+
+.emailcol {
+  color: white;
+}
+
+.emailcol h2{
+	display: inline-block;
+  width: 470px;
+  font-size: 36px;
+  font-family: 'Josefin Sans';
+  margin-top: 0px
+}
+
+.emailcol p{
+	font-size: 21px;
+	margin: 0px;
+	font-family: 'Raleway';
+  font-weight: 600;
+}
+
+input {
+  display:block;
+  width:100%;
+  margin:15px 0;
+  padding:10px;
+}
+
+input[type=submit] {
+	padding: 12px;
+    border: none;
+    background-color: #3897d3;
+    color: antiquewhite;
+    border-radius: 8px;
+    width: 475px;
+}
+
+.sub:hover {
+	background-color: #1f8cd1;
+	transition: 0.3s background-color #0f4263;
+	transition: 0.3s ease-out box-shadow;
+  box-shadow: 0px 0px 7px #1f8cd1;
+}
+
+form{
+	margin: 0px;
+	font-weight: 100;
+}
+
+form .firstname{
+   margin: 20px 0px 7px 0px;
+   font-size: 17px;
+   border-radius: 7px;
+   border: 1px solid #000;
+   transition: 0.3s border-color;
+   padding: 12px;
+   width: 450px;
+   height: 15px;
+}
+
+.firstname:hover {
+  border: 1px solid #aaa;
+}
+
+form .email{
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1px solid #000;
+    transition: 0.3s border-color;
+    padding: 12px;
+    width: 450px;
+    height: 15px;
+}
+
+.email:hover{
+	border: 1px solid #aaa;
+}
+
+.emailcol{
+	text-align: center;
+	margin-right: 20px;
+  padding: 0px 100px 0px 20px;
+}
+
+.emailboxes{
+	margin: 30px 100px 0px 0px; 
+}
+
+
+footer{
+	margin: 0;
+  background: linear-gradient(rgb(0 0 0), rgb(222 3 3 / 0%)), url(../img/rain2.jpg);
+  color: black;
+  background-position: center;
+}
+
+footer p{
+	display: inline-block;
+	padding: 0px 15px 0px 30px;
+	margin: 0;
+	width: auto;
+	color: floralwhite;
+}
+
+.hero{
+	height: 70px;
+	margin: 0;
+}
+
+.social{
+	color: black;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    flex: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 70px;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+ .social img{
+ 	height: 25px;
+ 	width: 25px;
+ }
+
+ footer a{
+ 	height: 25px;
+ 	width: 25px;
+ }
