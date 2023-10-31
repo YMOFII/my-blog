@@ -173,16 +173,6 @@ font-weight: normal;
 color: black;
 }
 
-.adonisss{
-	border: 10px solid;
-    border-color: lightgoldenrodyellow;
-    /* border-radius: 20px; */
-    background: lightgoldenrodyellow;
-    margin: 50px 200px 0px 200px;
-    transform: skew(284deg);
-    height: 50px;
-}
-
 main{
 	text-align: center;
 }
