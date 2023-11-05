@@ -375,6 +375,7 @@ iframe{
     flex-wrap: nowrap;
     flex-direction: row;
     align-items: center;
+    padding-top: 20px;
 }
 
 .emailcol h2{
@@ -451,8 +452,8 @@ form .email{
 
 .emailcol{
 	text-align: center;
-	margin-right: 20px;
-  padding: 0px 100px 0px 20px;
+	margin-right: 200px;
+  padding-left: 50px;
 }
 
 .emailboxes{
@@ -527,22 +528,92 @@ footer p{
 /*Media querries:*/ 
 
 /* Target standard phones (e.g., iPhone 6/7/8) */
-@media (min-width: 360px) and (max-width: 767px) {
+/*@media (min-width: 360px) and (max-width: 767px) {
   .thumb{
 		max-width: 75%;
 	}
-}
+}*/
 
 /* Target larger phones (e.g., iPhone X/XS/11 Pro, Samsung Galaxy S8/S9) */
-@media (min-width: 768px) and (max-width: 1023px) {
+/*@media (min-width: 768px) and (max-width: 1023px) {
 	body{
 		color: ;
 	}
-}
+}*/
 
 /* Target larger phones in landscape mode */
-@media (min-width: 1024px) and (max-width: 1279px) and (orientation: landscape) {
+/*@media (min-width: 1024px) and (max-width: 1279px) and (orientation: landscape) {
   body{
 		color: ;
 	}
+}*/
+
+@media (max-width: 768px) {
+  .box2 {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .box2 img {
+    height: 200px;
+  }
+
+  main h2 {
+    font-size: 35px;
+  	margin: 0px;
+    padding-left: 10px;
+  }
+
+  .box3 {
+  	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .box3 h3 {
+  	display: inline-block;
+    padding-left: 142px;
+    font-size: 70px;
+    margin-bottom: 0px
+  }
+
+  .yt {
+  	height: 165px;
+    width: 165px;
+    padding-left: 80px;
+  }
+   .emailcol {
+    padding: 0px 20px;
+    margin-left: 25px;
+
+  }
+  .emailcol h2 {
+  width: 100%;
 }
+form {
+	margin-left: 17px;
+}
+.emaillist {
+	display: flex;
+	height: 500px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+}
+ form .firstname {
+ 	width: 300px;
+ }
+ form .email {
+ 	width: 300px;
+ }
+ form .sub {
+ 	width: 325px;
+ }
+}
+
+
+
